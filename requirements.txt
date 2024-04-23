@@ -1,0 +1,8 @@
+finance-datareader==0.9.90
+selenium==4.19.0
+webdriver-manager==4.0.1
+slack-sdk==3.27.1
+h5py
+typing-extensions
+wheel
+apache-airflow==2.6.2

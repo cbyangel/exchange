@@ -1,0 +1,23 @@
+[2024-04-22T12:11:13.811+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T12:11:13.816+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T12:11:13.816+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-04-22T12:11:13.828+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): prepare_data> on 2024-04-22 03:11:01.222586+00:00
+[2024-04-22T12:11:13.832+0900] {standard_task_runner.py:57} INFO - Started process 94697 to run task
+[2024-04-22T12:11:13.838+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'prepare_data', 'manual__2024-04-22T03:11:01.222586+00:00', '--job-id', '6', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmp_z5oklbe']
+[2024-04-22T12:11:13.841+0900] {standard_task_runner.py:85} INFO - Job 6: Subtask prepare_data
+[2024-04-22T12:11:13.985+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.prepare_data manual__2024-04-22T03:11:01.222586+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T12:11:14.046+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='prepare_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T03:11:01.222586+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T03:11:01.222586+00:00'
+[2024-04-22T12:11:14.047+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T12:11:14.048+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/prepare_data.sh ']
+[2024-04-22T12:11:14.055+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T12:11:14.061+0900] {subprocess.py:93} INFO - /bin/bash: /Users/boycho/Project/exchange/bat/prepare_data.sh: Permission denied
+[2024-04-22T12:11:14.062+0900] {subprocess.py:97} INFO - Command exited with return code 126
+[2024-04-22T12:11:14.077+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 126.
+[2024-04-22T12:11:14.082+0900] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=usd_krw_prediction_v1, task_id=prepare_data, execution_date=20240422T031101, start_date=20240422T031113, end_date=20240422T031114
+[2024-04-22T12:11:14.090+0900] {standard_task_runner.py:104} ERROR - Failed to execute job 6 for task prepare_data (Bash command failed. The command returned a non-zero exit code 126.; 94697)
+[2024-04-22T12:11:14.103+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-04-22T12:11:14.202+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

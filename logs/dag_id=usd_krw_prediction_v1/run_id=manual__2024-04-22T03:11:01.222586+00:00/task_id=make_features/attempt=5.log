@@ -1,0 +1,30 @@
+[2024-04-22T14:54:29.082+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T14:54:29.087+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T14:54:29.088+0900] {taskinstance.py:1308} INFO - Starting attempt 5 of 5
+[2024-04-22T14:54:29.100+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): make_features> on 2024-04-22 03:11:01.222586+00:00
+[2024-04-22T14:54:29.105+0900] {standard_task_runner.py:57} INFO - Started process 12527 to run task
+[2024-04-22T14:54:29.110+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'make_features', 'manual__2024-04-22T03:11:01.222586+00:00', '--job-id', '17', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmp3r79okpt']
+[2024-04-22T14:54:29.114+0900] {standard_task_runner.py:85} INFO - Job 17: Subtask make_features
+[2024-04-22T14:54:29.261+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T14:54:29.317+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='make_features' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T03:11:01.222586+00:00' AIRFLOW_CTX_TRY_NUMBER='5' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T03:11:01.222586+00:00'
+[2024-04-22T14:54:29.319+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T14:54:29.320+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/make_features.sh ']
+[2024-04-22T14:54:29.326+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T14:54:29.370+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/make_features.py --dt 2024-04-22 --naver_keyword_csv /Users/boycho/Project/exchange/bat/../data/naver_keyword_data.csv --kr_oil_hist_csv /Users/boycho/Project/exchange/bat/../data/kr_oil_historical_data.csv --us_10y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_10year_bond_yield_historical_data.csv --us_1y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_1year_bond_yield_historical_data.csv --us_bb_hist_csv /Users/boycho/Project/exchange/bat/../data/us_bb_high_yield_historical_data.csv --train_csv /Users/boycho/Project/exchange/bat/../data/train.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-22T14:54:30.702+0900] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-04-22T14:54:30.703+0900] {subprocess.py:93} INFO -   File "/Users/boycho/Project/exchange/bat/../exchange/make_features.py", line 4, in <module>
+[2024-04-22T14:54:30.704+0900] {subprocess.py:93} INFO -     from common.preprocessing import C_PREPROCESSING
+[2024-04-22T14:54:30.706+0900] {subprocess.py:93} INFO -   File "/Users/boycho/Project/exchange/exchange/common/preprocessing.py", line 3, in <module>
+[2024-04-22T14:54:30.706+0900] {subprocess.py:93} INFO -     import SlackAlert
+[2024-04-22T14:54:30.707+0900] {subprocess.py:93} INFO - ModuleNotFoundError: No module named 'SlackAlert'
+[2024-04-22T14:54:30.799+0900] {subprocess.py:93} INFO - [ERROR] 2. make_features
+[2024-04-22T14:54:30.800+0900] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-04-22T14:54:30.808+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-04-22T14:54:30.813+0900] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=usd_krw_prediction_v1, task_id=make_features, execution_date=20240422T031101, start_date=20240422T055429, end_date=20240422T055430
+[2024-04-22T14:54:30.824+0900] {standard_task_runner.py:104} ERROR - Failed to execute job 17 for task make_features (Bash command failed. The command returned a non-zero exit code 1.; 12527)
+[2024-04-22T14:54:30.843+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-04-22T14:54:30.926+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

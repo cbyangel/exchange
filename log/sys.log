@@ -1,0 +1,123 @@
+2024-04-20 22:13:02,308 [INFO] start logger (logger.py:89)
+2024-04-20 22:14:37,029 [INFO] start logger (logger.py:89)
+2024-04-20 22:14:59,019 [INFO] start logger (logger.py:89)
+2024-04-20 22:27:46,027 [INFO] 2024-04-19 (prepare_data.py:20)
+2024-04-20 22:27:46,028 [INFO] ./../data/kr_oil_historical_data.csv (prepare_data.py:21)
+2024-04-20 22:27:46,028 [INFO] ./../data/us_10year_bond_yield_historical_data.csv (prepare_data.py:22)
+2024-04-20 22:27:46,029 [INFO] ./../data/us_1year_bond_yield_historical_data.csv (prepare_data.py:23)
+2024-04-20 22:27:46,029 [INFO] ./../data/us_bb_high_yield_historical_data.csv (prepare_data.py:24)
+2024-04-20 22:27:46,029 [INFO] ./../log (prepare_data.py:25)
+2024-04-20 23:02:04,195 [ERROR] download_oil_to_csv : name 'yyyy' is not defined (crawling.py:69)
+2024-04-20 23:24:59,387 [ERROR] download_bb_junkbond_to_csv : name 'driver' is not defined (crawling.py:85)
+2024-04-20 23:44:51,654 [ERROR] download_bb_junkbond_to_csv : name 'names' is not defined (crawling.py:90)
+2024-04-21 00:05:20,432 [ERROR] download_10y_bond_to_csv : list index out of range (crawling.py:50)
+2024-04-21 08:15:09,772 [ERROR] download_bb_junkbond_to_csv : Error tokenizing data. C error: Expected 2 fields in line 496, saw 4
+ (crawling.py:121)
+2024-04-21 08:23:24,236 [ERROR] download_bb_junkbond_to_csv : Error tokenizing data. C error: Expected 2 fields in line 496, saw 4
+ (crawling.py:121)
+2024-04-21 22:47:37,035 [ERROR] train.csv is not existed : could not convert string to float: '2016-01-01' (predict.py:67)
+2024-04-21 22:48:44,720 [ERROR]  could not convert string to float: '2016-01-01' (predict.py:67)
+2024-04-21 22:52:09,908 [INFO] model score : 0.94 (predict.py:54)
+2024-04-21 22:52:10,351 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713707530.258589', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713707530.258589', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'hHqe', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]'}]}]}]}} (predict.py:68)
+2024-04-21 22:52:49,718 [INFO] model score : 0.94 (predict.py:54)
+2024-04-21 22:52:50,183 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713707570.019879', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713707570.019879', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'sCfO', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]'}]}]}]}} (predict.py:68)
+2024-04-21 23:04:35,248 [ERROR] download_bb_junkbond_to_csv : Error tokenizing data. C error: Expected 2 fields in line 496, saw 4
+ (crawling.py:123)
+2024-04-21 23:06:00,873 [ERROR] download_10y_bond_to_csv : 'dt' (crawling.py:52)
+2024-04-21 23:06:03,550 [ERROR] download_1y_bond_to_csv : 'dt' (crawling.py:52)
+2024-04-21 23:10:15,148 [ERROR] download_bb_junkbond_to_csv : 'dt' (crawling.py:123)
+2024-04-21 23:13:20,369 [ERROR] download_bb_junkbond_to_csv : 'dt' (crawling.py:123)
+2024-04-21 23:21:38,164 [INFO] model score : 0.94 (predict.py:54)
+2024-04-21 23:21:38,601 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713709298.555759', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713709298.555759', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'NN3', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-21\n 실제 : [1387, 1379, 1379]\n 예측 : [1390, 1342, 1355]'}]}]}]}} (predict.py:68)
+2024-04-22 10:14:27,151 [ERROR] download_bb_junkbond_to_csv : 'NoneType' object is not subscriptable (crawling.py:123)
+2024-04-22 10:20:51,531 [ERROR] download_oil_to_csv : 'NoneType' object has no attribute 'tag_name' (crawling.py:100)
+2024-04-22 10:20:51,533 [ERROR] download_bb_junkbond_to_csv : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.60)
+Stacktrace:
+0   chromedriver                        0x00000001083f6cf8 chromedriver + 5188856
+1   chromedriver                        0x00000001083ee863 chromedriver + 5154915
+2   chromedriver                        0x0000000107f67047 chromedriver + 405575
+3   chromedriver                        0x0000000107f3d54e chromedriver + 234830
+4   chromedriver                        0x0000000107fdd7ed chromedriver + 890861
+5   chromedriver                        0x0000000107ff3818 chromedriver + 981016
+6   chromedriver                        0x0000000107fd4c53 chromedriver + 855123
+7   chromedriver                        0x0000000107fa5953 chromedriver + 661843
+8   chromedriver                        0x0000000107fa629e chromedriver + 664222
+9   chromedriver                        0x00000001083b50c0 chromedriver + 4919488
+10  chromedriver                        0x00000001083bb175 chromedriver + 4944245
+11  chromedriver                        0x0000000108395f8e chromedriver + 4792206
+12  chromedriver                        0x00000001083bbc99 chromedriver + 4947097
+13  chromedriver                        0x00000001083865e4 chromedriver + 4728292
+14  chromedriver                        0x00000001083ddd08 chromedriver + 5086472
+15  chromedriver                        0x00000001083ddec7 chromedriver + 5086919
+16  chromedriver                        0x00000001083ee483 chromedriver + 5153923
+17  libsystem_pthread.dylib             0x00007ff80b50718b _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80b502ae3 thread_start + 15
+ (crawling.py:123)
+2024-04-22 10:20:51,534 [ERROR] download_10y_bond_to_csv : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.60)
+Stacktrace:
+0   chromedriver                        0x00000001083f6cf8 chromedriver + 5188856
+1   chromedriver                        0x00000001083ee863 chromedriver + 5154915
+2   chromedriver                        0x0000000107f67047 chromedriver + 405575
+3   chromedriver                        0x0000000107f3d54e chromedriver + 234830
+4   chromedriver                        0x0000000107fdd7ed chromedriver + 890861
+5   chromedriver                        0x0000000107ff3818 chromedriver + 981016
+6   chromedriver                        0x0000000107fd4c53 chromedriver + 855123
+7   chromedriver                        0x0000000107fa5953 chromedriver + 661843
+8   chromedriver                        0x0000000107fa629e chromedriver + 664222
+9   chromedriver                        0x00000001083b50c0 chromedriver + 4919488
+10  chromedriver                        0x00000001083bb175 chromedriver + 4944245
+11  chromedriver                        0x0000000108395f8e chromedriver + 4792206
+12  chromedriver                        0x00000001083bbc99 chromedriver + 4947097
+13  chromedriver                        0x00000001083865e4 chromedriver + 4728292
+14  chromedriver                        0x00000001083ddd08 chromedriver + 5086472
+15  chromedriver                        0x00000001083ddec7 chromedriver + 5086919
+16  chromedriver                        0x00000001083ee483 chromedriver + 5153923
+17  libsystem_pthread.dylib             0x00007ff80b50718b _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80b502ae3 thread_start + 15
+ (crawling.py:52)
+2024-04-22 10:20:51,535 [ERROR] download_1y_bond_to_csv : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=124.0.6367.60)
+Stacktrace:
+0   chromedriver                        0x00000001083f6cf8 chromedriver + 5188856
+1   chromedriver                        0x00000001083ee863 chromedriver + 5154915
+2   chromedriver                        0x0000000107f67047 chromedriver + 405575
+3   chromedriver                        0x0000000107f3d54e chromedriver + 234830
+4   chromedriver                        0x0000000107fdd7ed chromedriver + 890861
+5   chromedriver                        0x0000000107ff3818 chromedriver + 981016
+6   chromedriver                        0x0000000107fd4c53 chromedriver + 855123
+7   chromedriver                        0x0000000107fa5953 chromedriver + 661843
+8   chromedriver                        0x0000000107fa629e chromedriver + 664222
+9   chromedriver                        0x00000001083b50c0 chromedriver + 4919488
+10  chromedriver                        0x00000001083bb175 chromedriver + 4944245
+11  chromedriver                        0x0000000108395f8e chromedriver + 4792206
+12  chromedriver                        0x00000001083bbc99 chromedriver + 4947097
+13  chromedriver                        0x00000001083865e4 chromedriver + 4728292
+14  chromedriver                        0x00000001083ddd08 chromedriver + 5086472
+15  chromedriver                        0x00000001083ddec7 chromedriver + 5086919
+16  chromedriver                        0x00000001083ee483 chromedriver + 5153923
+17  libsystem_pthread.dylib             0x00007ff80b50718b _pthread_start + 99
+18  libsystem_pthread.dylib             0x00007ff80b502ae3 thread_start + 15
+ (crawling.py:52)
+2024-04-22 10:21:21,192 [INFO] model score : 0.95 (predict.py:54)
+2024-04-22 10:21:21,983 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713748881.865069', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713748881.865069', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-22\n 실제 : [1379, 1379, 1381]\n 예측 : [1357, 1357, 1354]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'Plmc', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-22\n 실제 : [1379, 1379, 1381]\n 예측 : [1357, 1357, 1354]'}]}]}]}} (predict.py:68)
+2024-04-22 12:18:15,039 [INFO] model score : 0.94 (predict.py:54)
+2024-04-22 12:18:15,490 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713755895.393409', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713755895.393409', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1359, 1358]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'g5M2m', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1359, 1358]'}]}]}]}} (predict.py:68)
+2024-04-22 12:23:25,468 [INFO] model score : 0.94 (predict.py:54)
+2024-04-22 12:23:25,888 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713756205.799979', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713756205.799979', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1358, 1357]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 's75f', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1358, 1357]'}]}]}]}} (predict.py:68)
+2024-04-22 16:38:47,107 [ERROR]  read_csv() got an unexpected keyword argument 'c_slackalert' (predict.py:65)
+2024-04-22 16:42:38,228 [ERROR]  read_csv() got an unexpected keyword argument 'c_slackalert' (predict.py:65)
+2024-04-22 16:43:17,908 [ERROR]  C_PREPROCESSING.set_df() got an unexpected keyword argument 'c_slackalert' (predict.py:65)
+2024-04-22 16:45:03,852 [INFO] model score : 0.94 (predict.py:56)
+2024-04-22 16:45:04,353 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713771904.257149', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713771904.257149', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-22\n 실제 : [1380, 1380, 1380]\n 예측 : [1358, 1360, 1360]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'ARcN', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-22\n 실제 : [1380, 1380, 1380]\n 예측 : [1358, 1360, 1360]'}]}]}]}} (msg_alerts.py:21)
+2024-04-23 09:02:05,929 [ERROR] download_bb_junkbond_to_csv : Error tokenizing data. C error: Expected 2 fields in line 496, saw 4
+ (crawling.py:125)
+2024-04-23 09:02:06,772 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713830526.431179', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713830526.431179', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': 'Error tokenizing data. C error: Expected 2 fields in line 496, saw 4\n', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'sA=0O', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': 'Error tokenizing data. C error: Expected 2 fields in line 496, saw 4'}]}]}]}} (msg_alerts.py:21)
+2024-04-23 09:03:49,580 [INFO] model score : 0.94 (predict.py:56)
+2024-04-23 09:03:50,066 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713830630.095369', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713830630.095369', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-23\n 실제 : [1373, 1373, 1378]\n 예측 : [1352, 1351, 1351]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': '70ia', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-23\n 실제 : [1373, 1373, 1378]\n 예측 : [1352, 1351, 1351]'}]}]}]}} (msg_alerts.py:21)
+2024-04-23 09:09:04,692 [INFO] model score : 0.94 (predict.py:56)
+2024-04-23 09:09:05,117 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713830945.160969', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713830945.160969', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-23\n 실제 : [1373, 1373, 1378]\n 예측 : [1354, 1352, 1352]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'r2J=h', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-23\n 실제 : [1373, 1373, 1378]\n 예측 : [1354, 1352, 1352]'}]}]}]}} (msg_alerts.py:21)

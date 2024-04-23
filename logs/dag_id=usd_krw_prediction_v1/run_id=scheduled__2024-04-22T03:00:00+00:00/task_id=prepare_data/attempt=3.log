@@ -1,0 +1,41 @@
+[2024-04-22T16:34:18.823+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:34:18.827+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:34:18.827+0900] {taskinstance.py:1308} INFO - Starting attempt 3 of 2
+[2024-04-22T16:34:18.836+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): prepare_data> on 2024-04-22 03:00:00+00:00
+[2024-04-22T16:34:18.840+0900] {standard_task_runner.py:57} INFO - Started process 22948 to run task
+[2024-04-22T16:34:18.845+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'prepare_data', 'scheduled__2024-04-22T03:00:00+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpk62nljjb']
+[2024-04-22T16:34:18.848+0900] {standard_task_runner.py:85} INFO - Job 22: Subtask prepare_data
+[2024-04-22T16:34:19.004+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T03:00:00+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T16:34:19.064+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='prepare_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-22T03:00:00+00:00'
+[2024-04-22T16:34:19.066+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T16:34:19.067+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/prepare_data.sh ']
+[2024-04-22T16:34:19.073+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T16:34:19.122+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/prepare_data.py --dt 2024-04-22 --naver_keyword_csv /Users/boycho/Project/exchange/bat/../data/naver_keyword_data.csv --kr_oil_hist_csv /Users/boycho/Project/exchange/bat/../data/kr_oil_historical_data.csv --us_10y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_10year_bond_yield_historical_data.csv --us_1y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_1year_bond_yield_historical_data.csv --us_bb_hist_csv /Users/boycho/Project/exchange/bat/../data/us_bb_high_yield_historical_data.csv --us_bb_tmp_csv /Users/boycho/Project/exchange/bat/../data/us_bb_tmp_data.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-22T16:34:39.061+0900] {local_task_job_runner.py:291} WARNING - State of this instance has been externally set to restarting. Terminating instance.
+[2024-04-22T16:34:39.087+0900] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 22948. PIDs of all processes in the group: [22950, 22961, 22978, 22983, 22990, 22992, 22993, 22997, 23003, 23009, 23024, 22948]
+[2024-04-22T16:34:39.087+0900] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 22948
+[2024-04-22T16:34:39.087+0900] {taskinstance.py:1517} ERROR - Received SIGTERM. Terminating subprocesses.
+[2024-04-22T16:34:39.089+0900] {subprocess.py:104} INFO - Sending SIGTERM signal to process group
+[2024-04-22T16:34:39.118+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/operators/bash.py", line 201, in execute
+    result = self.subprocess_hook.run_command(
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/hooks/subprocess.py", line 91, in run_command
+    for raw_line in iter(self.sub_process.stdout.readline, b""):
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 1519, in signal_handler
+    raise AirflowException("Task received SIGTERM signal")
+airflow.exceptions.AirflowException: Task received SIGTERM signal
+[2024-04-22T16:34:39.130+0900] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=usd_krw_prediction_v1, task_id=prepare_data, execution_date=20240422T030000, start_date=20240422T073418, end_date=20240422T073439
+[2024-04-22T16:34:39.145+0900] {standard_task_runner.py:104} ERROR - Failed to execute job 22 for task prepare_data (Task received SIGTERM signal; 22948)
+[2024-04-22T16:34:39.187+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22948, status='terminated', exitcode=1, started='16:34:18') (22948) terminated with exit code 1
+[2024-04-22T16:34:39.188+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22993, status='terminated', started='16:34:24') (22993) terminated with exit code None
+[2024-04-22T16:34:39.189+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22961, status='terminated', started='16:34:19') (22961) terminated with exit code None
+[2024-04-22T16:34:39.189+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22997, status='terminated', started='16:34:25') (22997) terminated with exit code None
+[2024-04-22T16:34:39.189+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=23024, status='terminated', started='16:34:37') (23024) terminated with exit code None
+[2024-04-22T16:34:39.190+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22978, status='terminated', started='16:34:22') (22978) terminated with exit code None
+[2024-04-22T16:34:39.190+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22992, status='terminated', started='16:34:24') (22992) terminated with exit code None
+[2024-04-22T16:34:39.191+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=23009, status='terminated', started='16:34:30') (23009) terminated with exit code None
+[2024-04-22T16:34:39.191+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=23003, status='terminated', started='16:34:27') (23003) terminated with exit code None
+[2024-04-22T16:34:39.192+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22950, status='terminated', started='16:34:19') (22950) terminated with exit code None
+[2024-04-22T16:34:39.192+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22990, status='terminated', started='16:34:24') (22990) terminated with exit code None
+[2024-04-22T16:34:39.457+0900] {process_utils.py:79} INFO - Process psutil.Process(pid=22983, status='terminated', started='16:34:23') (22983) terminated with exit code None

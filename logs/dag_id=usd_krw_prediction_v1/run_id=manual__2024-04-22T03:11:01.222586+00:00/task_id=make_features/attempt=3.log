@@ -1,0 +1,23 @@
+[2024-04-22T14:51:52.202+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T14:51:52.207+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [queued]>
+[2024-04-22T14:51:52.208+0900] {taskinstance.py:1308} INFO - Starting attempt 3 of 3
+[2024-04-22T14:51:52.218+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): make_features> on 2024-04-22 03:11:01.222586+00:00
+[2024-04-22T14:51:52.222+0900] {standard_task_runner.py:57} INFO - Started process 12216 to run task
+[2024-04-22T14:51:52.228+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'make_features', 'manual__2024-04-22T03:11:01.222586+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/.ipynb_checkpoints/dag-checkpoint.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpi3bfstz7']
+[2024-04-22T14:51:52.231+0900] {standard_task_runner.py:85} INFO - Job 15: Subtask make_features
+[2024-04-22T14:51:52.379+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.make_features manual__2024-04-22T03:11:01.222586+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T14:51:52.437+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='make_features' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T03:11:01.222586+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-04-22T03:11:01.222586+00:00'
+[2024-04-22T14:51:52.439+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T14:51:52.440+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/.ipynb_checkpoints/make_features.sh ']
+[2024-04-22T14:51:52.446+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T14:51:52.453+0900] {subprocess.py:93} INFO - /bin/bash: /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/make_features.sh: No such file or directory
+[2024-04-22T14:51:52.454+0900] {subprocess.py:97} INFO - Command exited with return code 127
+[2024-04-22T14:51:52.461+0900] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/Users/boycho/anaconda3/lib/python3.10/site-packages/airflow/operators/bash.py", line 210, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 127.
+[2024-04-22T14:51:52.465+0900] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=usd_krw_prediction_v1, task_id=make_features, execution_date=20240422T031101, start_date=20240422T055152, end_date=20240422T055152
+[2024-04-22T14:51:52.474+0900] {standard_task_runner.py:104} ERROR - Failed to execute job 15 for task make_features (Bash command failed. The command returned a non-zero exit code 127.; 12216)
+[2024-04-22T14:51:52.492+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2024-04-22T14:51:52.578+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

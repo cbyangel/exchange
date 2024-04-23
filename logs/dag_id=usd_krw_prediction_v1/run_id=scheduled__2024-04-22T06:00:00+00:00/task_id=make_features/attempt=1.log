@@ -1,0 +1,17 @@
+[2024-04-23T09:03:39.718+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features scheduled__2024-04-22T06:00:00+00:00 [queued]>
+[2024-04-23T09:03:39.726+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.make_features scheduled__2024-04-22T06:00:00+00:00 [queued]>
+[2024-04-23T09:03:39.726+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-04-23T09:03:39.737+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): make_features> on 2024-04-22 06:00:00+00:00
+[2024-04-23T09:03:39.741+0900] {standard_task_runner.py:57} INFO - Started process 23517 to run task
+[2024-04-23T09:03:39.747+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'make_features', 'scheduled__2024-04-22T06:00:00+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpowy0fu2_']
+[2024-04-23T09:03:39.750+0900] {standard_task_runner.py:85} INFO - Job 30: Subtask make_features
+[2024-04-23T09:03:39.890+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.make_features scheduled__2024-04-22T06:00:00+00:00 [running]> on host lm-045768-00.local
+[2024-04-23T09:03:39.943+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='make_features' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T06:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-22T06:00:00+00:00'
+[2024-04-23T09:03:39.944+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-23T09:03:39.945+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/make_features.sh ']
+[2024-04-23T09:03:39.951+0900] {subprocess.py:86} INFO - Output:
+[2024-04-23T09:03:39.993+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/make_features.py --dt 2024-04-23 --naver_keyword_csv /Users/boycho/Project/exchange/bat/../data/naver_keyword_data.csv --kr_oil_hist_csv /Users/boycho/Project/exchange/bat/../data/kr_oil_historical_data.csv --us_10y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_10year_bond_yield_historical_data.csv --us_1y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_1year_bond_yield_historical_data.csv --us_bb_hist_csv /Users/boycho/Project/exchange/bat/../data/us_bb_high_yield_historical_data.csv --train_csv /Users/boycho/Project/exchange/bat/../data/train.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-23T09:03:44.618+0900] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-23T09:03:44.639+0900] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=usd_krw_prediction_v1, task_id=make_features, execution_date=20240422T060000, start_date=20240423T000339, end_date=20240423T000344
+[2024-04-23T09:03:44.658+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-04-23T09:03:44.736+0900] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

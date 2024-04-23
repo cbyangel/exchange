@@ -1,0 +1,756 @@
+[2024-04-23T09:03:36.501+0900] {processor.py:157} INFO - Started process (PID=23511) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:03:36.501+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:03:36.502+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:03:36.502+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:03:36.527+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:03:37.497+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:03:37.497+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:03:37.513+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:03:37.513+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:03:37.528+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.028 seconds
+[2024-04-23T09:04:08.691+0900] {processor.py:157} INFO - Started process (PID=23580) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:08.692+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:04:08.692+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:08.692+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:08.713+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:09.714+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:09.714+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:04:09.727+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:09.727+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:04:09.740+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.050 seconds
+[2024-04-23T09:04:40.976+0900] {processor.py:157} INFO - Started process (PID=23639) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:40.977+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:04:40.977+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:40.977+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:40.999+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:04:41.980+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:41.980+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:04:41.994+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:04:41.994+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:04:42.006+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.030 seconds
+[2024-04-23T09:05:13.380+0900] {processor.py:157} INFO - Started process (PID=23707) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:05:13.380+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:05:13.381+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:05:13.381+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:05:13.404+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:05:14.429+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:05:14.429+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:05:14.443+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:05:14.443+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:05:14.458+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.079 seconds
+[2024-04-23T09:08:51.892+0900] {processor.py:157} INFO - Started process (PID=24193) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:08:51.893+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:08:51.893+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:08:51.893+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:08:51.920+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:08:53.018+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:08:53.018+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:08:53.032+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:08:53.032+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:08:53.046+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.156 seconds
+[2024-04-23T09:09:24.913+0900] {processor.py:157} INFO - Started process (PID=24280) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:24.914+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:09:24.914+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:24.914+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:24.935+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:26.012+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:26.012+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:09:26.027+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:26.027+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:09:26.041+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.129 seconds
+[2024-04-23T09:09:57.559+0900] {processor.py:157} INFO - Started process (PID=24324) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:57.560+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:09:57.560+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:57.560+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:57.582+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:09:58.786+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:58.785+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:09:58.800+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:09:58.799+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:09:58.817+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.259 seconds
+[2024-04-23T09:10:30.416+0900] {processor.py:157} INFO - Started process (PID=24386) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:10:30.416+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:10:30.417+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:10:30.417+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:10:30.440+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:10:31.669+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:10:31.669+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:10:31.685+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:10:31.685+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:10:31.698+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.283 seconds
+[2024-04-23T09:11:02.914+0900] {processor.py:157} INFO - Started process (PID=24429) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:02.914+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:11:02.915+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:02.915+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:02.937+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:03.920+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:03.920+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:11:03.933+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:03.933+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:11:03.947+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.034 seconds
+[2024-04-23T09:11:35.188+0900] {processor.py:157} INFO - Started process (PID=24482) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:35.189+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:11:35.189+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:35.189+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:35.211+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:11:36.175+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:36.175+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:11:36.187+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:11:36.187+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:11:36.201+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.014 seconds
+[2024-04-23T09:12:07.367+0900] {processor.py:157} INFO - Started process (PID=24525) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:07.367+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:12:07.368+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:07.368+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:07.390+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:08.358+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:08.358+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:12:08.372+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:08.372+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:12:08.385+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.019 seconds
+[2024-04-23T09:12:39.528+0900] {processor.py:157} INFO - Started process (PID=24577) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:39.528+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:12:39.529+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:39.529+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:39.552+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:12:40.504+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:40.504+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:12:40.517+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:12:40.517+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:12:40.531+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.004 seconds
+[2024-04-23T09:13:11.717+0900] {processor.py:157} INFO - Started process (PID=24622) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:11.717+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:13:11.718+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:11.717+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:11.739+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:12.737+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:12.737+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:13:12.750+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:12.750+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:13:12.763+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.047 seconds
+[2024-04-23T09:13:43.940+0900] {processor.py:157} INFO - Started process (PID=24724) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:43.940+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:13:43.941+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:43.940+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:43.962+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:13:44.947+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:44.946+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:13:44.960+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:13:44.960+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:13:44.974+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.035 seconds
+[2024-04-23T09:14:16.131+0900] {processor.py:157} INFO - Started process (PID=24811) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:16.131+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:14:16.132+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:16.132+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:16.154+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:17.105+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:17.104+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:14:17.118+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:17.118+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:14:17.132+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.002 seconds
+[2024-04-23T09:14:48.307+0900] {processor.py:157} INFO - Started process (PID=24863) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:48.307+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:14:48.308+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:48.308+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:48.330+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:14:49.282+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:49.282+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:14:49.295+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:14:49.294+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:14:49.309+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.003 seconds
+[2024-04-23T09:15:20.534+0900] {processor.py:157} INFO - Started process (PID=24909) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:20.535+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:15:20.535+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:20.535+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:20.558+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:21.612+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:21.612+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:15:21.625+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:21.625+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:15:21.638+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.105 seconds
+[2024-04-23T09:15:52.831+0900] {processor.py:157} INFO - Started process (PID=25013) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:52.831+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:15:52.832+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:52.832+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:52.854+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:15:53.882+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:53.882+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:15:53.899+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:15:53.899+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:15:53.914+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.084 seconds
+[2024-04-23T09:16:25.233+0900] {processor.py:157} INFO - Started process (PID=25096) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:25.233+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:16:25.233+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:25.233+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:25.256+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:26.250+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:26.250+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:16:26.263+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:26.263+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:16:26.276+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.045 seconds
+[2024-04-23T09:16:57.474+0900] {processor.py:157} INFO - Started process (PID=25150) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:57.474+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:16:57.475+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:57.474+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:57.498+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:16:58.505+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:58.505+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:16:58.518+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:16:58.518+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:16:58.532+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.059 seconds
+[2024-04-23T09:17:29.840+0900] {processor.py:157} INFO - Started process (PID=25218) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:17:29.840+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:17:29.841+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:17:29.841+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:17:29.869+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:17:31.065+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:17:31.065+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:17:31.081+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:17:31.081+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:17:31.096+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.258 seconds
+[2024-04-23T09:18:02.330+0900] {processor.py:157} INFO - Started process (PID=25268) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:02.330+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:18:02.331+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:02.330+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:02.354+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:03.392+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:03.392+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:18:03.405+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:03.405+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:18:03.419+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.090 seconds
+[2024-04-23T09:18:35.085+0900] {processor.py:157} INFO - Started process (PID=25350) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:35.086+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:18:35.087+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:35.086+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:35.123+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:18:36.846+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:36.846+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:18:36.865+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:18:36.865+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:18:36.889+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.804 seconds
+[2024-04-23T09:19:09.050+0900] {processor.py:157} INFO - Started process (PID=25403) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:09.053+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:19:09.054+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:09.054+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:09.102+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:11.091+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:11.091+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:19:11.108+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:11.108+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:19:11.129+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.080 seconds
+[2024-04-23T09:19:43.655+0900] {processor.py:157} INFO - Started process (PID=25465) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:43.656+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:19:43.656+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:43.656+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:43.701+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:19:45.603+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:45.603+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:19:45.621+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:19:45.621+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:19:45.637+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.983 seconds
+[2024-04-23T09:20:17.854+0900] {processor.py:157} INFO - Started process (PID=25519) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:17.855+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:20:17.856+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:17.855+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:17.900+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:19.680+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:19.680+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:20:19.699+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:19.699+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:20:19.730+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.878 seconds
+[2024-04-23T09:20:51.823+0900] {processor.py:157} INFO - Started process (PID=25584) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:51.824+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:20:51.824+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:51.824+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:51.881+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:20:53.788+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:53.788+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:20:53.809+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:20:53.809+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:20:53.834+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.012 seconds
+[2024-04-23T09:21:26.230+0900] {processor.py:157} INFO - Started process (PID=25644) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:21:26.230+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:21:26.231+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:21:26.230+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:21:26.282+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:21:28.485+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:21:28.484+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:21:28.501+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:21:28.501+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:21:28.533+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.304 seconds
+[2024-04-23T09:22:00.929+0900] {processor.py:157} INFO - Started process (PID=25804) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:00.930+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:22:00.930+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:00.930+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:00.980+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:03.084+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:03.083+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:22:03.102+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:03.102+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:22:03.134+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.206 seconds
+[2024-04-23T09:22:35.104+0900] {processor.py:157} INFO - Started process (PID=25880) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:35.104+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:22:35.105+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:35.105+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:35.146+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:22:36.806+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:36.806+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:22:36.822+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:22:36.822+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:22:36.837+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.734 seconds
+[2024-04-23T09:23:08.747+0900] {processor.py:157} INFO - Started process (PID=25925) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:08.747+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:23:08.748+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:08.748+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:08.794+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:10.503+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:10.503+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:23:10.536+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:10.536+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:23:10.574+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.828 seconds
+[2024-04-23T09:23:42.597+0900] {processor.py:157} INFO - Started process (PID=26004) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:42.597+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:23:42.598+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:42.598+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:42.642+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:23:44.331+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:44.331+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:23:44.347+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:23:44.347+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:23:44.381+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.785 seconds
+[2024-04-23T09:24:15.631+0900] {processor.py:157} INFO - Started process (PID=26070) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:15.631+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:24:15.632+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:15.631+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:15.654+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:16.754+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:16.754+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:24:16.767+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:16.767+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:24:16.782+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.152 seconds
+[2024-04-23T09:24:47.987+0900] {processor.py:157} INFO - Started process (PID=26132) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:47.987+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:24:47.988+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:47.988+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:48.013+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:24:49.131+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:49.131+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:24:49.149+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:24:49.149+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:24:49.164+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.177 seconds
+[2024-04-23T09:25:20.475+0900] {processor.py:157} INFO - Started process (PID=26196) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:20.476+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:25:20.476+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:20.476+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:20.501+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:21.467+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:21.467+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:25:21.480+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:21.480+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:25:21.495+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.021 seconds
+[2024-04-23T09:25:52.998+0900] {processor.py:157} INFO - Started process (PID=26258) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:52.999+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:25:53.000+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:53.000+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:53.031+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:25:54.313+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:54.313+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:25:54.329+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:25:54.329+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:25:54.343+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.346 seconds
+[2024-04-23T09:26:25.782+0900] {processor.py:157} INFO - Started process (PID=26304) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:25.782+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:26:25.783+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:25.783+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:25.811+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:26.989+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:26.989+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:26:27.004+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:27.004+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:26:27.016+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.236 seconds
+[2024-04-23T09:26:58.214+0900] {processor.py:157} INFO - Started process (PID=26389) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:58.215+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:26:58.215+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:58.215+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:58.241+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:26:59.242+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:59.242+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:26:59.255+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:26:59.255+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:26:59.268+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.055 seconds
+[2024-04-23T09:27:30.450+0900] {processor.py:157} INFO - Started process (PID=26499) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:27:30.451+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:27:30.451+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:27:30.451+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:27:30.474+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:27:31.467+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:27:31.467+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:27:31.480+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:27:31.480+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:27:31.493+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.044 seconds
+[2024-04-23T09:28:02.675+0900] {processor.py:157} INFO - Started process (PID=26616) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:02.675+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:28:02.676+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:02.676+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:02.698+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:03.645+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:03.645+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:28:03.659+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:03.659+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:28:03.672+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 0.998 seconds
+[2024-04-23T09:28:34.889+0900] {processor.py:157} INFO - Started process (PID=26661) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:34.889+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:28:34.890+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:34.890+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:34.912+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:28:35.896+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:35.896+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:28:35.914+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:28:35.914+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:28:35.929+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.040 seconds
+[2024-04-23T09:29:07.091+0900] {processor.py:157} INFO - Started process (PID=26718) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:07.091+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:29:07.092+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:07.092+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:07.114+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:08.086+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:08.086+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:29:08.099+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:08.098+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:29:08.112+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.022 seconds
+[2024-04-23T09:29:39.338+0900] {processor.py:157} INFO - Started process (PID=26776) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:39.338+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:29:39.339+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:39.338+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:39.361+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:29:40.519+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:40.518+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:29:40.535+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:29:40.534+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:29:40.550+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.214 seconds
+[2024-04-23T09:30:12.038+0900] {processor.py:157} INFO - Started process (PID=26825) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:12.039+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:30:12.039+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:12.039+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:12.070+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:13.280+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:13.280+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:30:13.294+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:13.294+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:30:13.308+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.271 seconds
+[2024-04-23T09:30:44.527+0900] {processor.py:157} INFO - Started process (PID=26880) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:44.527+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:30:44.528+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:44.528+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:44.551+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:30:45.587+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:45.586+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:30:45.602+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:30:45.602+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:30:45.615+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.089 seconds
+[2024-04-23T09:31:17.139+0900] {processor.py:157} INFO - Started process (PID=26973) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:17.140+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:31:17.140+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:17.140+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:17.170+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:18.471+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:18.471+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:31:18.485+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:18.485+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:31:18.499+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.362 seconds
+[2024-04-23T09:31:49.747+0900] {processor.py:157} INFO - Started process (PID=27030) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:49.747+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:31:49.748+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:49.748+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:49.771+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:31:50.931+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:50.930+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:31:50.946+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:31:50.946+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:31:50.960+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.215 seconds
+[2024-04-23T09:32:22.160+0900] {processor.py:157} INFO - Started process (PID=27073) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:22.161+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:32:22.162+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:22.161+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:22.183+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:23.274+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:23.274+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:32:23.287+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:23.287+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:32:23.302+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.143 seconds
+[2024-04-23T09:32:54.881+0900] {processor.py:157} INFO - Started process (PID=27134) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:54.882+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:32:54.882+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:54.882+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:54.913+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:32:56.131+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:56.131+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:32:56.149+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:32:56.148+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:32:56.164+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.284 seconds
+[2024-04-23T09:33:27.622+0900] {processor.py:157} INFO - Started process (PID=27242) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:33:27.623+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:33:27.623+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:33:27.623+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:33:27.652+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:33:28.895+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:33:28.895+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:33:28.910+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:33:28.910+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:33:28.923+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.303 seconds
+[2024-04-23T09:34:00.440+0900] {processor.py:157} INFO - Started process (PID=27393) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:00.440+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:34:00.441+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:00.441+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:00.471+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:01.701+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:01.700+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:34:01.718+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:01.717+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:34:01.732+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.294 seconds
+[2024-04-23T09:34:32.969+0900] {processor.py:157} INFO - Started process (PID=27462) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:32.969+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:34:32.970+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:32.970+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:32.992+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:34:34.070+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:34.069+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:34:34.084+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:34:34.084+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:34:34.097+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.129 seconds
+[2024-04-23T09:35:05.926+0900] {processor.py:157} INFO - Started process (PID=27525) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:05.927+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:35:05.927+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:05.927+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:05.965+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:07.506+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:07.506+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:35:07.521+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:07.521+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:35:07.535+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.610 seconds
+[2024-04-23T09:35:39.028+0900] {processor.py:157} INFO - Started process (PID=27572) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:39.028+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:35:39.029+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:39.029+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:39.055+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:35:40.303+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:40.303+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:35:40.318+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:35:40.318+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:35:40.331+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.304 seconds
+[2024-04-23T09:36:11.878+0900] {processor.py:157} INFO - Started process (PID=27633) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:11.879+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:36:11.880+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:11.879+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:11.912+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:13.344+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:13.344+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:36:13.358+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:13.358+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:36:13.371+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.493 seconds
+[2024-04-23T09:36:44.631+0900] {processor.py:157} INFO - Started process (PID=27696) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:44.631+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:36:44.632+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:44.632+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:44.655+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:36:45.908+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:45.908+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:36:45.923+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:36:45.923+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:36:45.936+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.306 seconds
+[2024-04-23T09:37:17.385+0900] {processor.py:157} INFO - Started process (PID=27756) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:17.386+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:37:17.386+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:17.386+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:17.416+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:18.626+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:18.626+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:37:18.643+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:18.643+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:37:18.661+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.277 seconds
+[2024-04-23T09:37:49.913+0900] {processor.py:157} INFO - Started process (PID=27826) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:49.913+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:37:49.913+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:49.913+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:49.935+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:37:51.047+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:51.047+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:37:51.062+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:37:51.062+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:37:51.075+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.163 seconds
+[2024-04-23T09:38:22.378+0900] {processor.py:157} INFO - Started process (PID=27881) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:22.378+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:38:22.379+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:22.378+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:22.402+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:23.736+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:23.736+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:38:23.757+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:23.757+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:38:23.787+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.410 seconds
+[2024-04-23T09:38:55.441+0900] {processor.py:157} INFO - Started process (PID=27947) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:55.442+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:38:55.442+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:55.442+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:55.484+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:38:56.775+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:56.775+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:38:56.792+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:38:56.792+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:38:56.807+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.367 seconds
+[2024-04-23T09:39:28.349+0900] {processor.py:157} INFO - Started process (PID=27995) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:39:28.349+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:39:28.350+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:39:28.350+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:39:28.383+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:39:29.708+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:39:29.708+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:39:29.722+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:39:29.722+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:39:29.736+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.388 seconds
+[2024-04-23T09:40:01.470+0900] {processor.py:157} INFO - Started process (PID=28058) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:01.471+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:40:01.471+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:01.471+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:01.505+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:02.903+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:02.903+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:40:02.917+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:02.917+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:40:02.930+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.462 seconds
+[2024-04-23T09:40:34.284+0900] {processor.py:157} INFO - Started process (PID=28125) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:34.284+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:40:34.285+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:34.285+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:34.309+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:40:35.543+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:35.543+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:40:35.562+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:40:35.562+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:40:35.578+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.295 seconds
+[2024-04-23T09:41:07.070+0900] {processor.py:157} INFO - Started process (PID=28184) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:07.071+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:41:07.072+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:07.072+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:07.103+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:08.367+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:08.367+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:41:08.381+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:08.380+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:41:08.394+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.324 seconds
+[2024-04-23T09:41:39.871+0900] {processor.py:157} INFO - Started process (PID=28231) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:39.871+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:41:39.871+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:39.871+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:39.903+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:41:41.554+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:41.554+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:41:41.573+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:41:41.573+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:41:41.590+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.721 seconds
+[2024-04-23T09:42:13.554+0900] {processor.py:157} INFO - Started process (PID=28297) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:13.555+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:42:13.556+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:13.555+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:13.605+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:15.226+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:15.225+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:42:15.242+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:15.242+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:42:15.279+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.726 seconds
+[2024-04-23T09:42:46.851+0900] {processor.py:157} INFO - Started process (PID=28343) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:46.852+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:42:46.852+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:46.852+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:46.892+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:42:48.301+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:48.301+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:42:48.318+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:42:48.318+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:42:48.332+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.482 seconds
+[2024-04-23T09:43:20.139+0900] {processor.py:157} INFO - Started process (PID=28401) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:20.139+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:43:20.140+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:20.140+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:20.168+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:21.794+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:21.794+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:43:21.817+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:21.817+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:43:21.832+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.694 seconds
+[2024-04-23T09:43:53.109+0900] {processor.py:157} INFO - Started process (PID=28459) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:53.110+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:43:53.110+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:53.110+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:53.139+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:43:54.407+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:54.407+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:43:54.423+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:43:54.423+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:43:54.437+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.329 seconds
+[2024-04-23T09:44:25.646+0900] {processor.py:157} INFO - Started process (PID=28499) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:25.646+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:44:25.646+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:25.646+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:25.669+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:26.673+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:26.673+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:44:26.686+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:26.686+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:44:26.699+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.054 seconds
+[2024-04-23T09:44:58.176+0900] {processor.py:157} INFO - Started process (PID=28586) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:58.177+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:44:58.177+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:58.177+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:58.205+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:44:59.368+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:59.368+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:44:59.381+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:44:59.381+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:44:59.394+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.219 seconds
+[2024-04-23T09:45:30.619+0900] {processor.py:157} INFO - Started process (PID=28638) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:45:30.619+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:45:30.620+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:45:30.620+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:45:30.642+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:45:31.722+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:45:31.722+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:45:31.735+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:45:31.735+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:45:31.749+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.131 seconds
+[2024-04-23T09:46:03.252+0900] {processor.py:157} INFO - Started process (PID=28696) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:03.252+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:46:03.253+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:03.253+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:03.282+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:04.554+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:04.554+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:46:04.571+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:04.571+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:46:04.586+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.335 seconds
+[2024-04-23T09:46:35.811+0900] {processor.py:157} INFO - Started process (PID=28773) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:35.811+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:46:35.812+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:35.812+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:35.834+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:46:36.809+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:36.809+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:46:36.822+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:46:36.821+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:46:36.836+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.026 seconds
+[2024-04-23T09:47:08.253+0900] {processor.py:157} INFO - Started process (PID=28861) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:08.253+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:47:08.253+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:08.253+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:08.276+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:09.302+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:09.302+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:47:09.315+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:09.315+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:47:09.329+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.078 seconds
+[2024-04-23T09:47:40.536+0900] {processor.py:157} INFO - Started process (PID=28903) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:40.537+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:47:40.537+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:40.537+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:40.561+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:47:41.639+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:41.639+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:47:41.652+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:47:41.652+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:47:41.666+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.130 seconds
+[2024-04-23T09:48:12.985+0900] {processor.py:157} INFO - Started process (PID=28960) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:12.985+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:48:12.986+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:12.986+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:13.017+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:14.428+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:14.428+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:48:14.442+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:14.442+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:48:14.465+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.481 seconds
+[2024-04-23T09:48:45.942+0900] {processor.py:157} INFO - Started process (PID=29031) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:45.943+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:48:45.943+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:45.943+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:45.973+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:48:47.118+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:47.118+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:48:47.131+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:48:47.131+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:48:47.146+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.205 seconds
+[2024-04-23T09:49:18.677+0900] {processor.py:157} INFO - Started process (PID=29186) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:18.678+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:49:18.678+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:18.678+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:18.709+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:20.187+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:20.187+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:49:20.204+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:20.203+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:49:20.219+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.543 seconds
+[2024-04-23T09:49:51.509+0900] {processor.py:157} INFO - Started process (PID=29248) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:51.510+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:49:51.510+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:51.510+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:51.535+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:49:52.806+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:52.805+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:49:52.821+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:49:52.821+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:49:52.834+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.326 seconds
+[2024-04-23T09:50:24.246+0900] {processor.py:157} INFO - Started process (PID=29328) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:24.246+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:50:24.247+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:24.247+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:24.278+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:25.499+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:25.499+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:50:25.516+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:25.516+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:50:25.530+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.286 seconds
+[2024-04-23T09:50:57.068+0900] {processor.py:157} INFO - Started process (PID=29390) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:57.069+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:50:57.069+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:57.069+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:57.099+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:50:58.299+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:58.299+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:50:58.316+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:50:58.316+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:50:58.330+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.263 seconds
+[2024-04-23T09:51:29.568+0900] {processor.py:157} INFO - Started process (PID=29445) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:51:29.568+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:51:29.568+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:51:29.568+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:51:29.591+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:51:30.595+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:51:30.594+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:51:30.615+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:51:30.615+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:51:30.631+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.064 seconds
+[2024-04-23T09:52:01.870+0900] {processor.py:157} INFO - Started process (PID=29536) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:01.870+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:52:01.871+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:01.871+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:01.892+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:02.874+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:02.874+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:52:02.888+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:02.888+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:52:02.903+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.034 seconds
+[2024-04-23T09:52:34.195+0900] {processor.py:157} INFO - Started process (PID=29611) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:34.195+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:52:34.196+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:34.196+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:34.224+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:52:35.297+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:35.296+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:52:35.311+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:52:35.311+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:52:35.328+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.135 seconds
+[2024-04-23T09:53:06.612+0900] {processor.py:157} INFO - Started process (PID=29668) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:06.612+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:53:06.613+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:06.613+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:06.636+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:07.684+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:07.684+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:53:07.698+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:07.698+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:53:07.711+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.100 seconds
+[2024-04-23T09:53:38.937+0900] {processor.py:157} INFO - Started process (PID=29722) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:38.937+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:53:38.937+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:38.937+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:38.960+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:53:39.949+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:39.949+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:53:39.963+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:53:39.963+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:53:39.977+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.041 seconds
+[2024-04-23T09:54:11.193+0900] {processor.py:157} INFO - Started process (PID=29786) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:11.193+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:54:11.194+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:11.194+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:11.218+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:12.297+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:12.297+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:54:12.310+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:12.310+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:54:12.324+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.133 seconds
+[2024-04-23T09:54:43.559+0900] {processor.py:157} INFO - Started process (PID=29832) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:43.559+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:54:43.560+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:43.559+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:43.582+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:54:44.648+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:44.647+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:54:44.662+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:54:44.662+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:54:44.677+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.119 seconds
+[2024-04-23T09:55:15.910+0900] {processor.py:157} INFO - Started process (PID=29935) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:15.911+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:55:15.911+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:15.911+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:15.936+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:16.969+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:16.968+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:55:16.982+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:16.981+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:55:16.996+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.086 seconds
+[2024-04-23T09:55:48.220+0900] {processor.py:157} INFO - Started process (PID=30005) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:48.220+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:55:48.221+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:48.221+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:48.243+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:55:49.248+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:49.248+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:55:49.262+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:55:49.262+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:55:49.276+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.057 seconds
+[2024-04-23T09:56:20.831+0900] {processor.py:157} INFO - Started process (PID=30061) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:20.832+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:56:20.832+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:20.832+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:20.864+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:22.156+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:22.156+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:56:22.173+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:22.173+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:56:22.187+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.357 seconds
+[2024-04-23T09:56:53.772+0900] {processor.py:157} INFO - Started process (PID=30106) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:53.773+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:56:53.773+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:53.773+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:53.809+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:56:54.948+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:54.947+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:56:54.964+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:56:54.963+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:56:54.979+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.208 seconds
+[2024-04-23T09:57:26.478+0900] {processor.py:157} INFO - Started process (PID=30166) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:57:26.478+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:57:26.478+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:57:26.478+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:57:26.501+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:57:27.785+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:57:27.784+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:57:27.801+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:57:27.801+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:57:27.823+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.347 seconds
+[2024-04-23T09:57:59.554+0900] {processor.py:157} INFO - Started process (PID=30214) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:57:59.554+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:57:59.555+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:57:59.555+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:57:59.597+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:58:01.509+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:58:01.509+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:58:01.525+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:58:01.525+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:58:01.540+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.987 seconds
+[2024-04-23T09:58:34.143+0900] {processor.py:157} INFO - Started process (PID=30270) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:58:34.143+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:58:34.144+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:58:34.144+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:58:34.203+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:58:36.539+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:58:36.539+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:58:36.553+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:58:36.552+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:58:36.585+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.444 seconds
+[2024-04-23T09:59:09.051+0900] {processor.py:157} INFO - Started process (PID=30331) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:09.051+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:59:09.052+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:09.052+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:09.103+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:11.204+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:11.204+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:59:11.220+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:11.220+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:59:11.243+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.193 seconds
+[2024-04-23T09:59:43.158+0900] {processor.py:157} INFO - Started process (PID=30411) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:43.158+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T09:59:43.159+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:43.159+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:43.201+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T09:59:44.898+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:44.898+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T09:59:44.914+0900] {logging_mixin.py:149} INFO - [2024-04-23T09:59:44.914+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T09:59:44.945+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.788 seconds
+[2024-04-23T10:00:16.501+0900] {processor.py:157} INFO - Started process (PID=30473) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:16.502+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:00:16.502+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:16.502+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:16.536+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:17.885+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:17.885+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:00:17.902+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:17.901+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:00:17.916+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.416 seconds
+[2024-04-23T10:00:49.531+0900] {processor.py:157} INFO - Started process (PID=30541) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:49.532+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:00:49.532+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:49.532+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:49.556+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:00:50.982+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:50.982+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:00:50.999+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:00:50.999+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:00:51.014+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.483 seconds
+[2024-04-23T10:01:22.960+0900] {processor.py:157} INFO - Started process (PID=30610) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:22.960+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:01:22.961+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:22.960+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:23.003+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:24.794+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:24.794+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:01:24.814+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:24.814+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:01:24.843+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.885 seconds
+[2024-04-23T10:01:57.268+0900] {processor.py:157} INFO - Started process (PID=30694) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:57.268+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:01:57.269+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:57.269+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:57.334+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:01:59.408+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:59.407+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:01:59.424+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:01:59.424+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:01:59.442+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.175 seconds
+[2024-04-23T10:02:31.843+0900] {processor.py:157} INFO - Started process (PID=30762) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:02:31.844+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:02:31.844+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:02:31.844+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:02:31.898+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:02:33.957+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:02:33.956+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:02:33.973+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:02:33.973+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:02:33.993+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 2.151 seconds
+[2024-04-23T10:03:05.909+0900] {processor.py:157} INFO - Started process (PID=30814) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:05.909+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:03:05.910+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:05.910+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:05.953+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:07.689+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:07.688+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:03:07.705+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:07.705+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:03:07.740+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.832 seconds
+[2024-04-23T10:03:39.661+0900] {processor.py:157} INFO - Started process (PID=30891) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:39.661+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:03:39.662+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:39.662+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:39.704+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:03:41.413+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:41.413+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:03:41.426+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:03:41.426+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:03:41.443+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.783 seconds
+[2024-04-23T10:04:12.999+0900] {processor.py:157} INFO - Started process (PID=30972) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:12.999+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:04:13.000+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:13.000+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:13.040+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:14.596+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:14.596+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:04:14.612+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:14.612+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:04:14.639+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.641 seconds
+[2024-04-23T10:04:46.908+0900] {processor.py:157} INFO - Started process (PID=31019) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:46.909+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:04:46.909+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:46.909+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:46.956+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:04:48.739+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:48.739+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:04:48.756+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:04:48.756+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:04:48.782+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.876 seconds
+[2024-04-23T10:05:20.760+0900] {processor.py:157} INFO - Started process (PID=31080) to work on /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:05:20.761+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/dag.py for tasks to queue
+[2024-04-23T10:05:20.762+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:05:20.762+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:05:20.809+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/dag.py
+[2024-04-23T10:05:22.661+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:05:22.660+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-23T10:05:22.677+0900] {logging_mixin.py:149} INFO - [2024-04-23T10:05:22.677+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-23T00:00:00+00:00, run_after=2024-04-23T03:00:00+00:00
+[2024-04-23T10:05:22.692+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/dag.py took 1.933 seconds

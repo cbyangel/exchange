@@ -1,0 +1,17 @@
+[2024-04-22T12:12:18.060+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T00:00:00+00:00 [queued]>
+[2024-04-22T12:12:18.065+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T00:00:00+00:00 [queued]>
+[2024-04-22T12:12:18.065+0900] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-04-22T12:12:18.077+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): prepare_data> on 2024-04-22 00:00:00+00:00
+[2024-04-22T12:12:18.081+0900] {standard_task_runner.py:57} INFO - Started process 94909 to run task
+[2024-04-22T12:12:18.086+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'prepare_data', 'scheduled__2024-04-22T00:00:00+00:00', '--job-id', '7', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpradsw91t']
+[2024-04-22T12:12:18.090+0900] {standard_task_runner.py:85} INFO - Job 7: Subtask prepare_data
+[2024-04-22T12:12:18.237+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T00:00:00+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T12:12:18.293+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='prepare_data' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-22T00:00:00+00:00'
+[2024-04-22T12:12:18.295+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T12:12:18.296+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/prepare_data.sh ']
+[2024-04-22T12:12:18.302+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T12:12:18.729+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/prepare_data.py --dt 2024-04-22 --naver_keyword_csv /Users/boycho/Project/exchange/bat/../data/naver_keyword_data.csv --kr_oil_hist_csv /Users/boycho/Project/exchange/bat/../data/kr_oil_historical_data.csv --us_10y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_10year_bond_yield_historical_data.csv --us_1y_hist_csv /Users/boycho/Project/exchange/bat/../data/us_1year_bond_yield_historical_data.csv --us_bb_hist_csv /Users/boycho/Project/exchange/bat/../data/us_bb_high_yield_historical_data.csv --us_bb_tmp_csv /Users/boycho/Project/exchange/bat/../data/us_bb_tmp_data.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-22T12:15:38.081+0900] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-22T12:15:38.139+0900] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=usd_krw_prediction_v1, task_id=prepare_data, execution_date=20240422T000000, start_date=20240422T031218, end_date=20240422T031538
+[2024-04-22T12:15:38.192+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-04-22T12:15:38.208+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

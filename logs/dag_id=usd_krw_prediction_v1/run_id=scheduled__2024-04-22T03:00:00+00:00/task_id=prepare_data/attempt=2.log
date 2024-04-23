@@ -1,0 +1,7 @@
+[2024-04-22T16:16:17.061+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:16:17.068+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.prepare_data scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:16:17.068+0900] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2024-04-22T16:16:17.081+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): prepare_data> on 2024-04-22 03:00:00+00:00
+[2024-04-22T16:16:17.086+0900] {standard_task_runner.py:57} INFO - Started process 20743 to run task
+[2024-04-22T16:16:17.094+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'prepare_data', 'scheduled__2024-04-22T03:00:00+00:00', '--job-id', '20', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpelyvdcc4']
+[2024-04-22T16:16:17.098+0900] {standard_task_runner.py:85} INFO - Job 20: Subtask prepare_data

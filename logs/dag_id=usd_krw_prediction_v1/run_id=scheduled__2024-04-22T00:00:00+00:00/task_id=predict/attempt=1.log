@@ -1,0 +1,19 @@
+[2024-04-22T12:18:09.697+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T00:00:00+00:00 [queued]>
+[2024-04-22T12:18:09.702+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T00:00:00+00:00 [queued]>
+[2024-04-22T12:18:09.702+0900] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2024-04-22T12:18:09.713+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): predict> on 2024-04-22 00:00:00+00:00
+[2024-04-22T12:18:09.717+0900] {standard_task_runner.py:57} INFO - Started process 95620 to run task
+[2024-04-22T12:18:09.722+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'predict', 'scheduled__2024-04-22T00:00:00+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmp1fguh52j']
+[2024-04-22T12:18:09.725+0900] {standard_task_runner.py:85} INFO - Job 9: Subtask predict
+[2024-04-22T12:18:09.888+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T00:00:00+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T12:18:09.949+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='predict' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-22T00:00:00+00:00'
+[2024-04-22T12:18:09.950+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T12:18:09.951+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/predict.sh ']
+[2024-04-22T12:18:09.957+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T12:18:10.217+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/predict.py --dt 2024-04-22 --train_csv /Users/boycho/Project/exchange/bat/../data/train.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-22T12:18:15.040+0900] {subprocess.py:93} INFO - 2024-04-22 12:18:15,039 [INFO] model score : 0.94 (predict.py:54)
+[2024-04-22T12:18:15.490+0900] {subprocess.py:93} INFO - 2024-04-22 12:18:15,490 [INFO] {'ok': True, 'channel': 'C06UA137LSW', 'ts': '1713755895.393409', 'message': {'user': 'U06UZ3A4XC0', 'type': 'message', 'ts': '1713755895.393409', 'bot_id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1359, 1358]', 'team': 'T06U73ALH53', 'bot_profile': {'id': 'B06UA9HHRB4', 'app_id': 'A06UZ2ZDG8G', 'name': 'PYTHON Messengers', 'icons': {'image_36': 'https://a.slack-edge.com/80588/img/plugins/app/bot_36.png', 'image_48': 'https://a.slack-edge.com/80588/img/plugins/app/bot_48.png', 'image_72': 'https://a.slack-edge.com/80588/img/plugins/app/service_72.png'}, 'deleted': False, 'updated': 1713173324, 'team_id': 'T06U73ALH53'}, 'blocks': [{'type': 'rich_text', 'block_id': 'g5M2m', 'elements': [{'type': 'rich_text_section', 'elements': [{'type': 'text', 'text': '2024-04-22\n 실제 : [1379, 1381, 1381]\n 예측 : [1363, 1359, 1358]'}]}]}]}} (predict.py:68)
+[2024-04-22T12:18:15.645+0900] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-22T12:18:15.682+0900] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=usd_krw_prediction_v1, task_id=predict, execution_date=20240422T000000, start_date=20240422T031809, end_date=20240422T031815
+[2024-04-22T12:18:15.712+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-04-22T12:18:15.738+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,18 @@
+[2024-04-22T16:43:15.878+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:43:15.883+0900] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T03:00:00+00:00 [queued]>
+[2024-04-22T16:43:15.884+0900] {taskinstance.py:1308} INFO - Starting attempt 3 of 3
+[2024-04-22T16:43:15.894+0900] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): predict> on 2024-04-22 03:00:00+00:00
+[2024-04-22T16:43:15.898+0900] {standard_task_runner.py:57} INFO - Started process 24041 to run task
+[2024-04-22T16:43:15.903+0900] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'usd_krw_prediction_v1', 'predict', 'scheduled__2024-04-22T03:00:00+00:00', '--job-id', '27', '--raw', '--subdir', 'DAGS_FOLDER/dag.py', '--cfg-path', '/var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T/tmpoouxqng8']
+[2024-04-22T16:43:15.907+0900] {standard_task_runner.py:85} INFO - Job 27: Subtask predict
+[2024-04-22T16:43:16.056+0900] {task_command.py:410} INFO - Running <TaskInstance: usd_krw_prediction_v1.predict scheduled__2024-04-22T03:00:00+00:00 [running]> on host lm-045768-00.local
+[2024-04-22T16:43:16.107+0900] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='usd_krw_prediction_v1' AIRFLOW_CTX_TASK_ID='predict' AIRFLOW_CTX_EXECUTION_DATE='2024-04-22T03:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-04-22T03:00:00+00:00'
+[2024-04-22T16:43:16.108+0900] {subprocess.py:63} INFO - Tmp dir root location: /var/folders/m6/3b3l583d1z9f5sjd_k30vc7h0000gp/T
+[2024-04-22T16:43:16.110+0900] {subprocess.py:75} INFO - Running command: ['/bin/bash', '-c', '/Users/boycho/Project/exchange/bat/predict.sh ']
+[2024-04-22T16:43:16.116+0900] {subprocess.py:86} INFO - Output:
+[2024-04-22T16:43:16.153+0900] {subprocess.py:93} INFO - python /Users/boycho/Project/exchange/bat/../exchange/predict.py --dt 2024-04-22 --train_csv /Users/boycho/Project/exchange/bat/../data/train.csv --log_dir /Users/boycho/Project/exchange/bat/../log
+[2024-04-22T16:43:17.908+0900] {subprocess.py:93} INFO - 2024-04-22 16:43:17,908 [ERROR]  C_PREPROCESSING.set_df() got an unexpected keyword argument 'c_slackalert' (predict.py:65)
+[2024-04-22T16:43:18.057+0900] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-04-22T16:43:18.075+0900] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=usd_krw_prediction_v1, task_id=predict, execution_date=20240422T030000, start_date=20240422T074315, end_date=20240422T074318
+[2024-04-22T16:43:18.091+0900] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2024-04-22T16:43:18.166+0900] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

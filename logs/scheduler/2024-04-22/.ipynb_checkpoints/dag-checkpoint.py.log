@@ -1,0 +1,203 @@
+[2024-04-22T13:58:08.799+0900] {processor.py:157} INFO - Started process (PID=6554) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:08.799+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T13:58:08.800+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:08.800+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:08.831+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:10.216+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:10.215+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T13:58:10.233+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:10.233+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T13:58:10.251+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.453 seconds
+[2024-04-22T13:58:41.739+0900] {processor.py:157} INFO - Started process (PID=6611) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:41.740+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T13:58:41.740+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:41.740+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:41.770+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:58:43.106+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:43.106+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T13:58:43.120+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:58:43.120+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T13:58:43.133+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.396 seconds
+[2024-04-22T13:59:14.536+0900] {processor.py:157} INFO - Started process (PID=6667) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:14.537+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T13:59:14.537+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:14.537+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:14.566+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:16.021+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:16.020+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T13:59:16.036+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:16.036+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T13:59:16.049+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.513 seconds
+[2024-04-22T13:59:47.253+0900] {processor.py:157} INFO - Started process (PID=6708) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:47.254+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T13:59:47.254+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:47.254+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:47.284+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T13:59:48.376+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:48.376+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T13:59:48.393+0900] {logging_mixin.py:149} INFO - [2024-04-22T13:59:48.393+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T13:59:48.407+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.155 seconds
+[2024-04-22T14:00:19.861+0900] {processor.py:157} INFO - Started process (PID=6763) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:19.861+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:00:19.862+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:19.862+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:19.891+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:21.136+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:21.135+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:00:21.153+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:21.153+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:00:21.168+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.308 seconds
+[2024-04-22T14:00:52.672+0900] {processor.py:157} INFO - Started process (PID=6806) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:52.672+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:00:52.673+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:52.673+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:52.702+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:00:53.967+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:53.966+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:00:53.982+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:00:53.982+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:00:53.997+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.326 seconds
+[2024-04-22T14:01:25.534+0900] {processor.py:157} INFO - Started process (PID=6860) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:01:25.534+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:01:25.535+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:01:25.534+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:01:25.556+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:01:26.776+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:01:26.776+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:01:26.793+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:01:26.793+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:01:26.807+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.274 seconds
+[2024-04-22T14:01:58.531+0900] {processor.py:157} INFO - Started process (PID=6906) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:01:58.531+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:01:58.532+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:01:58.532+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:01:58.578+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:02:00.138+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:02:00.138+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:02:00.155+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:02:00.155+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:02:00.170+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.641 seconds
+[2024-04-22T14:02:31.738+0900] {processor.py:157} INFO - Started process (PID=6966) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:02:31.739+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:02:31.739+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:02:31.739+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:02:31.769+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:02:33.258+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:02:33.258+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:02:33.276+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:02:33.276+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:02:33.291+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.554 seconds
+[2024-04-22T14:03:04.787+0900] {processor.py:157} INFO - Started process (PID=7013) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:04.788+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:03:04.788+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:04.788+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:04.810+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:05.976+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:05.976+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:03:05.990+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:05.990+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:03:06.005+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.219 seconds
+[2024-04-22T14:03:38.076+0900] {processor.py:157} INFO - Started process (PID=7086) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:38.078+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:03:38.078+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:38.078+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:38.118+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:03:40.064+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:40.063+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:03:40.081+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:03:40.081+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:03:40.098+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.023 seconds
+[2024-04-22T14:04:12.552+0900] {processor.py:157} INFO - Started process (PID=7149) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:12.552+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:04:12.553+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:12.553+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:12.606+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:14.698+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:14.698+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:04:14.716+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:14.716+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:04:14.757+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.206 seconds
+[2024-04-22T14:04:46.773+0900] {processor.py:157} INFO - Started process (PID=7228) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:46.774+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:04:46.775+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:46.774+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:46.820+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:04:48.607+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:48.607+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:04:48.629+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:04:48.629+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:04:48.664+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.892 seconds
+[2024-04-22T14:05:20.924+0900] {processor.py:157} INFO - Started process (PID=7282) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:20.924+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:05:20.925+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:20.925+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:20.974+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:23.017+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:23.017+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:05:23.034+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:23.034+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:05:23.052+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.130 seconds
+[2024-04-22T14:05:55.319+0900] {processor.py:157} INFO - Started process (PID=7365) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:55.319+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:05:55.320+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:55.320+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:55.393+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:05:57.415+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:57.414+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:05:57.431+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:05:57.431+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:05:57.453+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.136 seconds
+[2024-04-22T14:06:29.325+0900] {processor.py:157} INFO - Started process (PID=7425) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:06:29.325+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:06:29.326+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:06:29.326+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:06:29.369+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:06:31.109+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:06:31.109+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:06:31.125+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:06:31.125+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:06:31.157+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.833 seconds
+[2024-04-22T14:07:03.596+0900] {processor.py:157} INFO - Started process (PID=7567) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:03.597+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:07:03.597+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:03.597+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:03.645+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:05.715+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:05.715+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:07:05.733+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:05.732+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:07:05.752+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.157 seconds
+[2024-04-22T14:07:37.668+0900] {processor.py:157} INFO - Started process (PID=7644) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:37.669+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:07:37.669+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:37.669+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:37.713+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:07:39.377+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:39.377+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:07:39.391+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:07:39.391+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:07:39.405+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.737 seconds
+[2024-04-22T14:08:11.325+0900] {processor.py:157} INFO - Started process (PID=7701) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:11.326+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:08:11.326+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:11.326+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:11.369+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:13.265+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:13.264+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:08:13.281+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:13.281+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:08:13.303+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.979 seconds
+[2024-04-22T14:08:45.600+0900] {processor.py:157} INFO - Started process (PID=7759) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:45.600+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:08:45.601+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:45.601+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:45.645+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:08:47.665+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:47.665+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:08:47.683+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:08:47.683+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:08:47.703+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.104 seconds
+[2024-04-22T14:09:19.897+0900] {processor.py:157} INFO - Started process (PID=7805) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:19.898+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:09:19.898+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:19.898+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:19.944+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:21.962+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:21.962+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:09:21.979+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:21.979+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:09:22.003+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 2.108 seconds
+[2024-04-22T14:09:53.978+0900] {processor.py:157} INFO - Started process (PID=7868) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:53.978+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:09:53.979+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:53.979+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:54.020+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:09:55.726+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:55.726+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:09:55.740+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:09:55.740+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:09:55.754+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.777 seconds
+[2024-04-22T14:10:27.565+0900] {processor.py:157} INFO - Started process (PID=7924) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:10:27.565+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:10:27.566+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:10:27.566+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:10:27.609+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:10:29.361+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:10:29.361+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:10:29.376+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:10:29.376+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:10:29.403+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.839 seconds
+[2024-04-22T14:11:01.365+0900] {processor.py:157} INFO - Started process (PID=8061) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:01.366+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:11:01.366+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:01.366+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:01.412+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:03.158+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:03.158+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:11:03.173+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:03.173+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:11:03.210+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.846 seconds
+[2024-04-22T14:11:34.965+0900] {processor.py:157} INFO - Started process (PID=8131) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:34.965+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:11:34.966+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:34.966+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:35.007+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:11:36.558+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:36.558+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:11:36.574+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:11:36.574+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:11:36.601+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.637 seconds
+[2024-04-22T14:12:08.144+0900] {processor.py:157} INFO - Started process (PID=8199) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:12:08.144+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:12:08.145+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:12:08.145+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:12:08.169+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:12:09.501+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:12:09.500+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:12:09.517+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:12:09.517+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:12:09.541+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.398 seconds
+[2024-04-22T14:51:35.599+0900] {processor.py:157} INFO - Started process (PID=12188) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:51:35.600+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:51:35.600+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:51:35.600+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:51:35.624+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:51:35.684+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:51:35.683+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:51:36.831+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:51:36.831+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:51:36.849+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.251 seconds
+[2024-04-22T14:52:08.920+0900] {processor.py:157} INFO - Started process (PID=12249) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:08.921+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:52:08.921+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:08.921+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:08.945+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:10.093+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:10.092+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:52:10.106+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:10.106+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:52:10.120+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.201 seconds
+[2024-04-22T14:52:41.489+0900] {processor.py:157} INFO - Started process (PID=12294) to work on /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:41.490+0900] {processor.py:826} INFO - Processing file /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py for tasks to queue
+[2024-04-22T14:52:41.491+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:41.490+0900] {dagbag.py:541} INFO - Filling up the DagBag from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:41.513+0900] {processor.py:836} INFO - DAG(s) dict_keys(['usd_krw_prediction_v1']) retrieved from /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py
+[2024-04-22T14:52:42.528+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:42.527+0900] {dag.py:2726} INFO - Sync 1 DAGs
+[2024-04-22T14:52:42.544+0900] {logging_mixin.py:149} INFO - [2024-04-22T14:52:42.544+0900] {dag.py:3486} INFO - Setting next_dagrun for usd_krw_prediction_v1 to 2024-04-22T03:00:00+00:00, run_after=2024-04-22T06:00:00+00:00
+[2024-04-22T14:52:42.557+0900] {processor.py:179} INFO - Processing /Users/boycho/Project/exchange/bat/.ipynb_checkpoints/dag-checkpoint.py took 1.069 seconds
